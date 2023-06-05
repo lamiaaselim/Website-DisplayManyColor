@@ -1,0 +1,71 @@
+
+/************************* Default Theme *****************/
+.option-box .color-option{
+	border: 2px solid #b415a7;
+}
+.option-box .color-option ul li{
+	background: #b415a7;
+}
+.navbar-dark .navbar-brand span{
+	color: #b415a7;
+}
+nav .navbar-dark >.active>a,
+nav .navbar-dark >.active>a:hover,
+nav .navbar-dark >.active>a:focus{
+	color: #b415a7;
+}
+.option-box .cog-option{
+	background: #b415a7;
+}
+.navbar-dark .navbar-brand span{
+	color: #b415a7;
+}
+nav .navbar-dark >.active>a,
+nav .navbar-dark >.active>a:hover,
+nav .navbar-dark >.active>a:focus{
+	color: #b415a7;
+}
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #b415a7;	
+}
+.dropdown-menu{
+border-top: 3px solid #b415a7;
+}
+.dropdown-menu >a:active,
+.dropdown-menu >a:focus,
+.dropdown-menu >a:hover{
+	background: #b415a7;
+}
+.dropdown-divider{
+	background-color: #b415a7;
+	border-top: 1px solid #b415a7;
+}
+.slider .carousel-indicators li{
+	background-color: #b415a7 !important;
+}
+.slider .carousel-indicators li:active{
+	background-color: #b415a7 !important; 
+}
+.about span{
+	color: #b415a7;
+}
+.testimonials span{
+	color: #b415a7;
+}
+.testimonials .carousel-indicators li:active,
+.testimonials .carousel-indicators li:hover,
+.testimonials .carousel-indicators li:focus{
+	border: 2px solid #b415a7;
+}
+.our-team .person a:hover{
+	color: #b415a7;}
+.footer h3{
+	color: #b415a7;
+	letter-spacing: 1px;
+}
+.copyright a:hover{
+	color: #b415a7;
+}
+
+

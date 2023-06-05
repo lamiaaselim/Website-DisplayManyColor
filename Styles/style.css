@@ -1,0 +1,605 @@
+		/* Site Colors 
+Hover:#E41B17;
+#b415a7;
+#009AFF;
+#e5c316;
+*/
+@font-face {
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/polar.otf");
+  font-family: 'Polar';
+}
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+body{
+	background-color: #ffffff;
+	overflow: hidden;
+}
+/*__________________ Start  Section Option Box   ______________________*/
+.option-box{
+	position: fixed;
+	top: 100px;
+	left: 0;
+	z-index: 9999;
+}
+.option-box .color-option{
+	float: left;
+	background: #333;
+	color: #FFF;
+	padding: 10px;
+	width: 200px;
+	display: none;
+}
+.option-box .color-option ul li{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin-right: 3px;
+}
+.option-box .cog-option{
+	padding: 5px;
+	color: #FFF;
+	cursor: pointer;
+}
+/*__________________ End Section  Option Box ______________________*/
+
+/************************* Overriding Bootstrap *****************/
+
+
+/*_____________________ Start Navbar ____________________________*/
+nav{
+	background: rgba(0,0,0,.9);
+}
+.navbar{
+	min-height: 70px;
+}
+.navbar-dark .navbar-brand{
+	font-size: 30px;
+	line-height: 40px;
+}
+.navbar-dark .navbar-brand span{
+	font-size: 25px;
+	line-height: 40px;
+}
+nav .nav-item a{
+	font-size: 20px;
+}
+nav .navbar-dark .navbar-nav .nav-link{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: #fff;
+	padding-right: 20px;
+}
+.dropdown-menu{
+background: rgba(0,0,0,.9);
+min-width: 200px;
+}
+.dropdown-menu >a{
+	color: #fff;
+	padding: 6px 20px;
+	-webkit-transition: padding 0.5s ease;
+    -moz-transition: padding 0.5s ease;
+    -o-transition: padding 0.5s ease;
+    transition: padding 0.5s ease;
+}
+.dropdown-menu >a:active,
+.dropdown-menu >a:focus,
+.dropdown-menu >a:hover{
+	color: #fff;
+	padding-left: 25px;
+}
+.dropdown-divider{
+	border-top: 1px solid #E41B17;
+}    
+	/*________________ End Navbar _______________*/
+
+
+/*________________ Start Slider _______________*/
+.slider .carousel-caption{
+	padding-bottom: 150px;
+}
+.slider .carousel-indicators li{
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+}
+/*________________ End Slider _______________*/
+
+/*__________________ Start About Section ______________________*/
+.about{
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.about .lead {
+	color: #888;
+	font-size: 25px;
+	margin-top: 15px;
+}
+.about span{
+	font-size: 35px;
+	line-height: 40px;
+}
+/*__________________ End About Section ______________________*/
+
+	/*__________________ Start Feature Section  ______________________*/
+.features{
+	background: #EEE;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.features h1{
+	padding-bottom: 40px;
+}
+.features h4{
+	padding-top: 40px;
+	padding-bottom: 15px;
+}
+.features p{
+	line-height: 2em;
+	text-align: justify;
+}
+.features .bi .bi-award{
+	padding-bottom: 90px;
+}
+/*__________________ End Feature Section ______________________*/
+
+	/*__________________ Start Testimonials Section ______________________*/
+.testimonials{
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.testimonials h1{
+	font-weight: bold;
+}
+.testimonials span{
+	font-weight: bold;
+	font-size: 18px;
+}
+.testimonials .carousel-inner{
+	min-height: 200px;
+}
+.testimonials .carousel-indicators{
+position: static;
+	top: 20px;
+	bottom: 20px;
+width: 100%;
+margin-left: auto ;
+padding-top: 150px;
+}
+.testimonials .carousel-indicators li{
+	text-indent: 0;
+	width: 80px;
+	min-height: 80px;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.testimonials .carousel-indicators li:active,
+.testimonials .carousel-indicators li:hover,
+.testimonials .carousel-indicators li:focus{
+	background: none;
+}
+.testimonials .carousel-indicators li img{
+	max-width: 100%;
+	border-radius: 50%;
+}
+@media (max-width: 1510px){
+.testimonials .carousel-indicators{
+	padding-top: 160px;	
+}
+}
+@media (max-width: 971px){
+.testimonials .carousel-indicators{
+	padding-top: 200px;	
+}
+}
+@media (max-width: 767px){
+.testimonials .carousel-indicators{
+	padding-top: 250px;	
+}
+}
+@media (max-width: 422px){
+.testimonials .carousel-indicators{
+	padding-top: 350px;	
+}
+}
+@media (max-width: 280px){
+.testimonials .carousel-indicators{
+	padding-top: 400px;	
+}
+}
+/*__________________ End Testimonials Section ______________________*/
+
+	/*__________________ Start Section Table Pricse  ______________________*/
+.table-price{
+	background: #EEE;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.table-price h1{
+	margin-bottom: 30px;
+}
+.table-price .price-box{
+	background: #FFF;
+	padding: 10px;
+	border: 1px solid #DDD;
+	margin-bottom: 15px;
+}
+.table-price .price-box h2{
+	margin: 5px 0 15px;
+}
+.table-price .price-box p{
+	font-size: 30px;
+	font-weight: bold;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	background: #F3F3F3;
+	border-radius: 50%;
+	margin: auto; 
+	border: 2px solid #FFF;
+	-webkit-transition-duration: 0.7s;
+    -moz-transition-duration: 0.7s;
+    -o-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+}
+.table-price .price-box:hover p{
+	-webkit-transform: scale(1.1, 1.1)rotate(360deg);
+    -moz-transform: scale(1.1, 1.1)rotate(360deg);
+    -o-transform: scale(1.1, 1.1)rotate(360deg);
+    transform: scale(1.1, 1.1)rotate(360deg);
+	border: 2px solid #DFDFDF;
+}
+.table-price .price-box a{
+	margin-bottom: 15px;
+}
+.table-price .price-box ul{
+	margin-top: 20px;
+}
+/*__________________ End Section Table Pricse ______________________*/
+
+/*__________________ Start Section Our Team  ______________________*/
+.our-team{
+	background: url(../images/team.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	width: 100%;
+	min-height: 600px;
+}
+.our-team .team{
+	background: rgba(2,2,2,0.7);
+	color: #FFF;
+	min-height: 600px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.our-team .team h1{
+	margin-bottom: 60px;
+}
+.our-team .person{
+	margin-bottom: 40px;
+}
+.our-team .person a{
+	color: #FFF;
+}
+.our-team .person i{
+	margin: 5px 5px;
+	font-size: 1.8em;
+}
+
+/*__________________ End Section Our Team ______________________*/
+
+/*__________________ Start Section Subscribe ______________________*/
+.subscribe{
+	padding-bottom: 80px;
+	padding-top: 40px;
+	background: #EEE;
+}
+.subscribe h1{
+	color: #888;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+}
+.subscribe p{
+	margin-bottom: 30px;
+}
+.subscribe .form-control{
+	border-radius: 0;
+	margin-right: 5px;
+	width: 300px;
+}
+.subscribe .form-inline{
+	display: block;
+}
+.subscribe button{
+	border-radius: 0;
+}
+.subscribe i{
+	padding: 7px 7px;
+}
+
+/*__________________ End Section Subscribe ______________________*/
+
+/*__________________ Start Section Statistics  ______________________*/
+.statistics{
+	background: url(../images/stats.jpg) no-repeat center center fixed;
+	width: 100%;
+	min-height: 300px;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.statistics .data{
+	min-height: 300px;
+	background: rgba(2,2,2,0.8);
+	color: #B6b5b5;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.statistics .stat{
+	margin-bottom: 30px;
+	-webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+.statistics h1{
+	margin-bottom: 60px;
+}
+.statistics p{
+	font-size: 60px;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+.statistics span{
+	font-size: 18px;
+}
+.statistics i{
+	color: #B6B5B5;
+}
+.statistics i:hover{
+	color: #FFF;
+}
+/*__________________ End Section Statistics ______________________*/
+
+/*__________________ Start Section Progress   ______________________*/
+.our-progress{
+	width: 100%;
+	min-height: 300px;
+	background: #FFF;
+	margin-bottom: 40px;
+}
+.our-progress .progress-info{
+	margin-left: 80px;
+}
+.our-progress h1{
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+.our-progress h3{
+	font-weight: bold;
+	padding-top: 0;
+	margin-top: 0;
+}
+.our-progress .progress{
+	margin-bottom: 30px;
+	height: 36px;
+}
+.our-progress .progress .progress-bar{
+	line-height: 36px;
+	font-size: 15px;
+	font-weight: bold;
+}
+/*__________________ End Section Progress  ______________________*/
+
+/*__________________ Start  Section Contact    ______________________*/
+.contact-us{
+	background: url(../images/contact-us.jpg) no-repeat center center fixed;
+	width: 100%;
+	min-height: 300px;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.contact-us .contact{
+	background: rgba(9,9,9,0.5);
+	color: #DDD;
+	min-height: 300px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.contact-us .contact h1{
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+.contact-us .contact p{
+	margin-bottom: 60px;
+}
+.contact-us .contact textarea{
+	height: 100px;
+	margin-bottom: 8px;
+}
+.contact-us .contact input,
+.contact-us .contact textarea{
+	background: rgba(3,3,3,0.92);
+	color: #FFF;
+	border: none;
+}
+/*__________________ End Section Contact  ______________________*/
+
+/*__________________ Start  Section Annonounc    ______________________*/
+.annonounc{
+	background: #EEE;
+	min-height: 100px;
+	padding-bottom: 20px;
+	padding-top: 40px;
+}
+.annonounc ul{
+	text-align: center;
+}
+.annonounc li{
+	padding-bottom: 20px;
+}
+.annonounc a:hover{
+	color: #FFF;
+}
+/*__________________ End Section  Annonounc ______________________*/
+
+/*__________________ Start  Section Footer    ______________________*/
+.footer{
+	background: #333;
+	color: #AAA;
+	padding-top: 40px;
+}
+.footer h3{
+	letter-spacing: 1px;
+}
+.footer .table td, .table th{
+	padding: 3px 3px;
+	margin: 5px 5px;
+}
+.footer a{
+	color: #AAA;
+	margin: 5px 5px;
+}
+.footer a:hover{
+	color: #FFF;
+	text-decoration: none;
+}
+.footer .icon img{
+	padding-bottom: 2px;
+
+}
+.footer .img-thumbnail{
+	background: rgba(2,1,1,0.82);
+	border: 1px solid #444;
+	margin-bottom: 5px;
+}
+/*__________________ End Section  Footer ______________________*/
+
+/*__________________ Start  Section CopyRight & ScrollUp ______________________*/
+.copyright{
+	background: black;
+	height: 80px;
+}
+.copyright p{
+	color: #BFBFBF;
+	text-align: center;
+	padding-top:15px;
+}
+.copyright a{
+	color: #FFF;
+	text-decoration: none;
+}
+/*__________________ End Section CopyRight & ScrollUp ______________________*/
+
+/*__________________ Start  Section Loading Screen   ______________________*/
+.loading-overlay{
+	background: #2c3e50;
+	color: #FFF;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+}
+.sk-cube-grid {
+  width: 40px;
+  height: 40px;
+  margin: 100px auto;
+}
+
+.sk-cube-grid .sk-cube {
+  width: 33%;
+  height: 33%;
+  background-color: #FFF;
+  float: left;
+  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+          animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+}
+.sk-cube-grid .sk-cube1 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube2 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube3 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s; }
+.sk-cube-grid .sk-cube4 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube5 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube6 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube7 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s; }
+.sk-cube-grid .sk-cube8 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube9 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1); 
+  }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1);
+	} }
+/*__________________ End Section Loading Screen ______________________*/
+
+/*__________________ Start  About page   ______________________*/
+.about-page{
+	padding-top: 40px;
+}
+/*__________________ End About page  ______________________*/
+
+/*__________________ Start  Market page   ______________________*/
+.market-page{
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+/*__________________ End Market page  ______________________*/
+
+/*__________________ Start  Map page   ______________________*/
+.map-page{
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+/*__________________ End Map page  ______________________*/
+/*__________________ Start  Page    ______________________*/
+/*__________________ End Page  ______________________*/
+
+

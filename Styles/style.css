@@ -5,8 +5,8 @@ Hover:#E41B17;
 #e5c316;
 */
 @font-face {
-  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/polar.otf");
-  font-family: 'Polar';
+	src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/polar.otf");
+	font-family: 'Polar';
 }
 *{
     -webkit-box-sizing:border-box;
